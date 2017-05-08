@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It helped me by marking of files removed with minus symbol versus files added
+with plus symbol making it very easy to see changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It would save a lot of my time particularly in cases when I am working in a
+team of programmers with multiple code versions. Also, in case of some typos,
+I could easily compare new and old versions and remove the bugs.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Manually choosing when to create a commit keeps me in control provided I do
+a commit per logical change while while having versions automatically saved 
+like Google docs does is a good thing since I no longer have overhead of 
+remembering to commit my works but in case of programming, version history
+gets a lot cluttered up which is not the case with manual commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+In case of Git, there can be many interdependent files in a repository
+which are linked to other files within repository while for Google 
+docs it is more intuitive to treat each file separately since you only 
+modify one doc at a time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can use git log to see all commit history. You can see commit id and other
+details. Now once you have these data, you can use git diff followed by 2
+commit id's you want to compare and you can see differences in those 
+different versions and also, see code that was added / removed etc. You can 
+also use git log --stat to see a nice summary of number of additions /
+deletions per commit. You can also do git diff --stat old_commit_id
+new_commit_id to see a summary of additions / deletions in addition to
+seeing the code added / deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+I would be more encouraged to fearlessly experiment different things out using
+version control since I always could revert back to previous working version 
+in case I broke something. I do git checkout previous_commit_id to go to 
+earlier working code in case of any bugs in latest commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would want to you use Git for version control since I have my workspace 
+set up now. I would want to see different commit histories for my code
+repositories and would want to try more and more to make deep changes now
+since I can easily revert back using 'git checkout previous_commit_id'. 
