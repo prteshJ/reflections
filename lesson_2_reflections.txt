@@ -18,25 +18,30 @@ added wrong files using 'git reset' command.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-I have to be careful to ensure my changes are logical before I add those
-to staging area.
-Once I have done above, I can use 'git diff' command to see changes in 
-files I want to commit by looking at their snapshots in staging area 
-and workspace directory. 
-This would help me understand if my changes are in sync or out of sync. 
-I can safely now commit my changes using 'git commit' once my changes are 
-in sync at working directory and staging area to my Git repository.
+I have to be careful to ensure my changes are logical before I add those to 
+staging area. Once I have done above, I can use 'git diff' command to see 
+changes in files I want to commit by looking at their snapshots in staging 
+area and workspace directory. This would help me understand if my changes 
+are in sync or out of sync. I can safely now commit my changes using 
+'git commit' once my changes are in sync at working directory and staging 
+area to my Git repository.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-I see branches very helpful in context of game development. So you want to
-test multiple features in a game, some experimental while others you want
-to push in the current release. In such a case, using a branch is very 
-useful in keeping your history orgranized as well as to help keep 
-development modular.
+I see branches very helpful in context of game development. So you want to test
+multiple features in a game, some experimental while others you want to push in 
+the current release. In such a case, using a branch is very useful in keeping 
+your history orgranized as well as to help keep development modular.
 
 How do the diagrams help you visualize the branch structure?
+
+I need to use command 'git log --graph --oneline branch_name' where there can 
+be multiple space separated branch names. Then I can see different commits in 
+different branches. However, this output is still not very understandable, so 
+we create diagrams which help a lot in visualizing the branch structure since 
+we can directly navigate branches and commit through the branch hierarchy as 
+well as it also helps in finding out unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
