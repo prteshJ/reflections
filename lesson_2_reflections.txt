@@ -46,5 +46,11 @@ well as it also helps in finding out unreachable commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging 2 branches together is that we can get feature from say,
+for example, a feature branch where we are working on features into the 
+development branch which will contain all additional features from feature
+branch and then we can follow similarly for doing work in parallel. We 
+represent it in diagram since it helps us understand Git merging more easily.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
