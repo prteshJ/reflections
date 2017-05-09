@@ -52,5 +52,12 @@ development branch which will contain all additional features from feature
 branch and then we can follow similarly for doing work in parallel. We 
 represent it in diagram since it helps us understand Git merging more easily.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
 manually?
+
+Git automatic merging is useful except that in case of ambiguity Git leaves
+it upto authors to fix the conflicts but it still marks of ambiguous parts 
+of code which is a good hint for debugging and resolving the conflicts. 
+Manually merging is often not feasible when multiple people are 
+collaborating on a project and is very tedious and it is hard to keep track 
+of when files increase in quantity and content.
