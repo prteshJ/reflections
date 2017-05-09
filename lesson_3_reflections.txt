@@ -12,8 +12,8 @@ automatically stay up-to-date with your remote repository?
 If I do it automatically, I lose control and I may not be able to commit
 my work to Github per logical change but there would be lots of unnecessary
 commits which really could be avoided. I would want to do it manually since
-I can push my work per logical change and I am in control and charge of my
-commits.
+I can push my work per logical change to my local machine and I am in control 
+and charge of my commits.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
