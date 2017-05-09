@@ -9,7 +9,11 @@ backed up to the cloud.
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+If I do it automatically, I lose control and I may not be able to commit
+my work to Github per logical change but there would be lots of unnecessary
+commits which really could be avoided. I would want to do it manually since
+I can push my work per logical change and I am in control and charge of my
+commits.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
