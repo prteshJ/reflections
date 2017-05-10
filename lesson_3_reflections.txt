@@ -42,7 +42,16 @@ snapshots on remote and local are consistent.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+It would be easier to work on simple collaborative projects without using Git 
+or Github. It would be harder to fix multiple things in parallel but it would 
+be easier in sense that there is no learning curve required. With Git or 
+Github, inspite of learning curve, I would be able to collaborate on very 
+simple to complex projects, working with distributed teams across the world, 
+it would be very easy to share work, do pull requests so that others can review
+my work and multiple people in team can comment with their feedback as well as 
+I have a rich history of commits and various branches making my life very 
+easier in case of bugs since I can easily revert back to previous stable 
+version.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
