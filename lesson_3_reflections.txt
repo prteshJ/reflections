@@ -29,7 +29,15 @@ and production code which can be worked on in parallel in different branches.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+It is very helpful to store a copy of last known state of the remote locally
+since in case of conflicts such as being offline since commits were out of sync 
+at remote on Github server and local machine, this provides a useful 
+information such as by comparing commits it can say on 'git status' that local
+is ahead of remote to indicate that there is a conflict. Also, we can do a 
+'git fetch' which updates local copy to latest remote snapshot so that work can
+be continued offline on most updated snapshot of remote and later do a merge 
+using 'git merge origin master' and then fix up conflicts, and ensure both 
+snapshots on remote and local are consistent.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
